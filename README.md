@@ -5,7 +5,12 @@
 # ⚙️ One Click Installation :
 
 ```shell
-wget -N https://raw.githubusercontent.com/meower1/Reality-SNI-finder/main/run.sh && bash run.sh
+pkg update -y && pkg install -y git wget bash
+git clone https://github.com/HibirSystems/Reality-SNI-Finder.git
+cd Reality-SNI-Finder
+chmod +x run.sh
+bash run.sh
+
 ```
 
 <img width="423" alt="image" src="https://github.com/meower1/Reality-SNI-finder/assets/109747197/56d3720d-f5ed-49d5-b985-d001f1d9f85b">
